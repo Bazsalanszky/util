@@ -26,6 +26,7 @@ single Go module, `github.com/omec-project/util`; import only the packages you n
 | `metricinfo` | Data types for core subscriber, NF status and metric events |
 | `milenage` | Milenage authentication functions (F1, F2345, OPc generation) |
 | `mongoapi` | MongoDB client wrapper and index management helpers |
+| `sbiaddr` | SBI address handling for the NFs: IPv4/IPv6/FQDN classification, register addresses from config and `POD_IP`/`POD_IPS`, the SBI bind address, and `scheme://host:port` URIs with IPv6 brackets |
 | `ueauth` | Key derivation function (KDF) helpers for UE authentication |
 
 ## Development
